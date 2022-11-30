@@ -115,7 +115,7 @@ int main()
 		}
 	}while(ch!=7);
 	// getch() function is used to open the terminal after the program is excuted 
-	// if getch() is not used it will just open the terminal and close it once the programed is compiled and runned 
+	// if getch() is not used it will just open the terminal and close it once the program is compiled and runned 
 	getch();
 	return 0;
 	// these main function returns a instance of int data type

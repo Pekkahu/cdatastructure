@@ -33,23 +33,6 @@ void display(int stack[MAX])
 		}
 	}
 }
-/*
-int pop(int stack[MAX])
-{
-	int val;
-	if(top == -1)
-	{
-		printf("\n Stack is empty");
-		val = -1;
-	}
-	else
-	{
-		val = stack[top];
-		top--;
-	}
-	return val;
-} */
-
 void pop(int stack[MAX])
 {
 	if(top == -1)

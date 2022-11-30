@@ -77,7 +77,7 @@ void stackfull()
 
 int main()
 {
-	int ch, val; //ch varaible is used to choice the function which we have to perform on stack according to the switch case
+	int ch; //ch varaible is used to choice the function which we have to perform on stack according to the switch case
 	int n; // n is used in case 1 of switch for calling push function muiltple times for muiltple push operation
 	int i; // i is the variable used in for loop 
 	int stack[MAX]; // array size max

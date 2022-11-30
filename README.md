@@ -1,5 +1,5 @@
 # c codes for DSA
-> stack
+> Stack
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -120,4 +120,9 @@ int main()
 	return 0;
 	// these main function returns a instance of int data type
 }
+```
+> Queue
+
+```c
+
 ```

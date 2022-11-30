@@ -77,10 +77,10 @@ void stackfull()
 
 int main()
 {
-	int ch; //ch varaible is used to choice the function which we have to perform on stack according to the switch case
+	int ch; // ch varaible is used to choice the function which we have to perform on stack according to the switch case
 	int n; // n is used in case 1 of switch for calling push function muiltple times for muiltple push operation
 	int i; // i is the variable used in for loop 
-	int stack[MAX]; // array size max
+	int stack[MAX]; // array of size max
 	clrscr();
 	do
 	{
@@ -111,7 +111,7 @@ int main()
 				stackfull();
 				break;
 			case 7:
-				exit(0);
+				exit(0); // exit() function exits from main function and the program stops
 		}
 	}while(ch!=7);
 	// getch() function is used to open the terminal after the program is excuted 

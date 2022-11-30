@@ -76,14 +76,16 @@ void stackfull()
 
 int main()
 {
-	int ch, n, i, val;
-	int stack[MAX];
+	int ch, val; //ch varaible is used to choice the function which we have to perform on stack according to the switch case
+	int n; // n is used in case 1 of switch for calling push function muiltple times for muiltple push operation
+	int i; // i is the variable used in for loop 
+	int stack[MAX]; // array size max
 	clrscr();
 	do
 	{
 		printf("\n Menu \n 1.Push \n 2.Display \n 3.Pop \n 4.Peek \n 5.Stackempty");
 		printf("\n 6.Stackfull \n 7.Exit \n Enter your choice");
-		scanf("%d", &ch);
+		scanf("%d", &ch); // "%d" is used in scanf for taking a input which is of integer type and the &ch is the address 
 		switch(ch)
 		{
 			case 1:
@@ -96,9 +98,6 @@ int main()
 				display(stack);
 				break;
 			case 3:
-				/*val = pop(stack);
-				if(val != -1)
-					printf("\n Popped element = %d", val);*/
 				pop(stack);
 				break;
 			case 4:
@@ -114,7 +113,10 @@ int main()
 				exit(0);
 		}
 	}while(ch!=7);
+	// getch() function is used to open the terminal after the program is excuted 
+	// if getch() is not used it will just open the terminal and close it once the programed is compiled and runned 
 	getch();
 	return 0;
+	// these main function returns a instance of int data type
 }
 ```

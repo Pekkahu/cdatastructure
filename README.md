@@ -1,4 +1,5 @@
 # c codes for DSA
+> stack
 ```c
 #include<stdio.h>
 #include<conio.h>
